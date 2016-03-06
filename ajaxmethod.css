@@ -1,3 +1,18 @@
+.line{
+	width: 5px;
+	background-color:#A5B8FA;
+	position: absolute;
+	left: 30px;
+}
 .items{
+	margin-left:30px;
 	display:none;
+	position: relative;
+}
+.on{
+	animation:transfer 0.4s linear ;
+}
+@keyframes transfer{
+	0%{transform:translate(30px);}
+	100%{transform:translate(0px);}
 }
